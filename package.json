@@ -1,0 +1,17 @@
+{
+  "name": "osm-oio-slides",
+  "version": "1.0.0",
+  "description": "OSM slides for the OIO",
+  "dependencies": {
+    "reveal.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server -a 127.0.0.1"
+  },
+  "author": "",
+  "license": "CC-BY-SA-4.0"
+}
