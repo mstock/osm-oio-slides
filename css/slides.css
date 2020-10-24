@@ -1,0 +1,14 @@
+.multi-column {
+    display: flex;
+}
+
+.slides section h1 {
+    text-transform: none;
+}
+
+.logo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    min-width: 100px;
+}
