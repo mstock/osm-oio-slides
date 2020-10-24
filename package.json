@@ -10,7 +10,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "http-server -a 127.0.0.1"
+    "server": "http-server -a 127.0.0.1",
+    "build": "npm run-script clean && mkdir -p dist/node_modules/reveal.js && cp -R css images index.html .nojekyll dist && cp -R --no-preserve=mode node_modules/reveal.js/dist dist/node_modules/reveal.js",
+    "clean": "rm -rf dist"
   },
   "author": "",
   "license": "CC-BY-SA-4.0"
