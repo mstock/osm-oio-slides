@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "OSM slides for the OIO",
   "dependencies": {
-    "reveal.js": "^4.0.2"
+    "reveal.js": "^4.1.0"
   },
   "devDependencies": {
     "http-server": "^0.12.3"
